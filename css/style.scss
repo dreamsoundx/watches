@@ -1,0 +1,26 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+@import '_null';
+@import url('https://fonts.googleapis.com/css?family=League+Spartan:300,400,500');
+
+html {
+  font-size: 14px;
+}
+body {
+  line-height: 1;
+  color: rgb(94, 106, 112);
+  background: #e8e8e8;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+[class*='__container'] {
+  margin: 0px auto;
+  max-width: 871px;
+  padding: 0px 15px;
+}
