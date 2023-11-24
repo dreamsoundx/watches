@@ -48,13 +48,14 @@ body {
 }
 
 html {
-  font-size: 14px;
+  font-size: 32px;
 }
 
 body {
   line-height: 1;
-  color: rgb(94, 106, 112);
-  background: #e8e8e8;
+  font-family: "League Spartan", sans-serif;
+  color: #161515;
+  background: #fff;
 }
 
 .wrapper {
@@ -64,6 +65,33 @@ body {
 
 [class*=__container] {
   margin: 0px auto;
-  max-width: 871px;
+  max-width: 1170px;
+  padding: 0px 15px;
+}
+
+.titles__label {
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 186%;
+}
+.titles__item {
+  color: #000;
+  text-align: center;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 112.5%;
+}
+
+.models {
+  padding: 43px 0px 142px 0px;
+}
+.models__header:not(:last-child) {
+  margin-bottom: 84px;
+}
+.models__body {
+  margin: 0px auto;
+  max-width: 531px;
   padding: 0px 15px;
 }

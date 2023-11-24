@@ -6,12 +6,13 @@
 @import url('https://fonts.googleapis.com/css?family=League+Spartan:300,400,500');
 
 html {
-  font-size: 14px;
+  font-size: 32px;
 }
 body {
   line-height: 1;
-  color: rgb(94, 106, 112);
-  background: #e8e8e8;
+  font-family: 'League Spartan', sans-serif;
+  color: #161515;
+  background: #fff;
 }
 
 .wrapper {
@@ -21,6 +22,111 @@ body {
 
 [class*='__container'] {
   margin: 0px auto;
-  max-width: 871px;
+  max-width: 1170px;
   padding: 0px 15px;
+}
+
+.titles {
+  // .titles__label
+
+  &__label {
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 186%;
+  }
+
+  // .titles__item
+
+  &__item {
+    color: #000;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 112.5%;
+  }
+}
+
+.header {
+  // .header__container
+
+  &__container {
+  }
+}
+.main {
+}
+.models {
+  padding: 43px 0px 142px 0px;
+  // .models__container
+
+  &__container {
+  }
+
+  // .models__header
+
+  &__header {
+    &:not(:last-child) {
+      margin-bottom: 84px;
+    }
+  }
+
+  // .models__body
+
+  &__body {
+    margin: 0px auto;
+    max-width: 531px;
+    padding: 0px 15px;
+  }
+
+  // .models__items
+
+  &__items {
+  }
+
+  // .models__item
+
+  &__item {
+  }
+
+  // .models__info
+
+  &__info {
+  }
+
+  // .models__title
+
+  &__title {
+  }
+
+  // .models__text
+
+  &__text {
+  }
+}
+
+.item-models {
+  // .item-models__picture
+
+  &__picture {
+  }
+
+  // .item-models__image
+
+  &__image {
+  }
+
+  // .item-models__title
+
+  &__title {
+  }
+
+  // .item-models__text
+
+  &__text {
+  }
+}
+.item-title {
+}
+.item-text {
 }
