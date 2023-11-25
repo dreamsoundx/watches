@@ -27,21 +27,18 @@ body {
 }
 
 .titles {
+  color: #000;
   // .titles__label
 
   &__label {
-    color: #000;
-    text-align: center;
     font-size: 24px;
     font-weight: 300;
-    line-height: 186%;
+    line-height: 180%;
   }
 
   // .titles__item
 
   &__item {
-    color: #000;
-    text-align: center;
     font-size: 72px;
     font-weight: 400;
     line-height: 112.5%;
@@ -61,59 +58,70 @@ body {
   // .models__container
 
   &__container {
+    margin: 0px auto;
+    max-width: 561px;
+    padding: 0px 15px;
+    text-align: center;
   }
 
   // .models__header
 
   &__header {
     &:not(:last-child) {
-      margin-bottom: 84px;
+      margin-bottom: 63px;
     }
   }
 
-  // .models__body
-
-  &__body {
-    margin: 0px auto;
-    max-width: 531px;
-    padding: 0px 15px;
-  }
-
   // .models__items
-
   &__items {
+    &:not(:last-child) {
+      margin-bottom: 122px;
+    }
   }
 
-  // .models__item
+  // .models__desc
 
-  &__item {
-  }
-
-  // .models__info
-
-  &__info {
-  }
-
-  // .models__title
-
-  &__title {
-  }
-
-  // .models__text
-
-  &__text {
+  &__desc {
   }
 }
 
 .item-models {
+  &:not(:last-child) {
+    margin-bottom: 80px;
+  }
   // .item-models__picture
-
   &__picture {
+    background-color: #f8f8f8;
+    margin: 0px auto;
+    &:not(:last-child) {
+      margin-bottom: 67px;
+    }
+  }
+
+  // .item-models__picture_watch2
+  &__picture_watch2 {
+    padding: 110px 65.5px;
+    max-width: 417px;
+  }
+
+  // .item-models__picture_watch3
+  &__picture_watch3 {
+    padding: 67px 2px;
+    max-width: 500px;
   }
 
   // .item-models__image
-
   &__image {
+  }
+  // .item-models__img
+
+  &__img {
+    max-width: 100%;
+  }
+
+  //.item-models__info
+  .item-models__info {
+    font-size: 32px;
   }
 
   // .item-models__title
@@ -127,6 +135,40 @@ body {
   }
 }
 .item-title {
+  &:not(:last-child) {
+    margin-bottom: 13px;
+  }
 }
 .item-text {
+  color: #161515;
+  font-weight: 300;
+  line-height: 155%;
+}
+
+.desc-models {
+  // .desc-models__title
+
+  &__title {
+    &:not(:last-child) {
+      margin-bottom: 62px;
+    }
+  }
+
+  // .desc-models__text
+
+  &__text {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 170%; /* 40.8px */
+  }
+
+  // .desc-models__link
+
+  &__link {
+    color: #bb8b5d;
+    font-weight: 500;
+    &:hover {
+      text-decoration-line: underline;
+    }
+  }
 }
