@@ -45,12 +45,73 @@ body {
   }
 }
 
-.header {
-  // .header__container
+.offer {
+  background: #f8f8f8;
+  // .offer__container
 
   &__container {
   }
+
+  // .offer__content
+
+  &__content {
+    padding: 0px 0px 168px 0px;
+    display: flex;
+  }
+
+  // .offer__left
+
+  &__left {
+  }
+
+  // .offer__label
+
+  &__label {
+  }
+
+  // .offer__title
+
+  &__title {
+  }
+
+  // .offer__text
+
+  &__text {
+  }
+
+  // .offer__buttons
+
+  &__buttons {
+  }
+
+  // .offer__buy
+
+  &__buy {
+  }
+
+  // .offer__price
+
+  &__price {
+  }
+
+  // .offer__right
+
+  &__right {
+  }
+
+  // .offer__image
+
+  &__image {
+  }
+
+  // .offer__img
+
+  &__img {
+  }
 }
+.button {
+}
+
 .main {
 }
 .models {

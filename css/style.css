@@ -83,6 +83,15 @@ body {
   line-height: 112.5%;
 }
 
+.offer {
+  background: #f8f8f8;
+}
+.offer__content {
+  padding: 0px 0px 168px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 .models {
   padding: 43px 0px 142px 0px;
 }
