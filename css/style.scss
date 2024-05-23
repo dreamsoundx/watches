@@ -57,26 +57,19 @@ body {
   &__content {
     padding: 0px 0px 168px 0px;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    margin: 0px -12px;
+    // margin: 0px -12px;
   }
 
   // .offer__left
 
   &__left {
-    padding: 20px 12px 0px 12px;
-    flex: 1 1 57%;
+    padding: 20px 0px 0px 0px;
+    flex: 1 1 auto;
     align-self: flex-end;
   }
 
-  // .offer__right
-
-  &__right {
-    flex: 1 1 43%;
-    padding: 0px 12px;
-    // display: flex;
-    // justify-content: center;
-  }
   // .offer__label
 
   &__label {
@@ -147,6 +140,14 @@ body {
 
   // .offer__right
 
+  &__right {
+    padding: 0px 25px 0px 25px;
+    // flex: 1 1 43%;
+    // padding: 0px 12px;
+    // display: flex;
+    // justify-content: center;
+  }
+
   // .offer__image
 
   &__image {
@@ -199,29 +200,15 @@ body {
   &:not(:last-child) {
     margin-bottom: 80px;
   }
-  // .item-models__picture
-  &__picture {
-    background-color: #f8f8f8;
-    margin: 0px auto;
-    &:not(:last-child) {
-      margin-bottom: 67px;
-    }
-  }
-
-  // .item-models__picture_watch2
-  &__picture_watch2 {
-    padding: 110px 65.5px;
-    max-width: 417px;
-  }
-
-  // .item-models__picture_watch3
-  &__picture_watch3 {
-    padding: 67px 2px;
-    max-width: 500px;
-  }
 
   // .item-models__image
   &__image {
+    max-width: 531px;
+    padding: 67px 0px 67px 0px;
+    background-color: #f8f8f8;
+    &:not(:last-child) {
+      margin-bottom: 62px;
+    }
   }
   // .item-models__img
 

@@ -91,23 +91,19 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 0px -12px;
 }
 .offer__left {
-  padding: 20px 12px 0px 12px;
+  padding: 20px 0px 0px 0px;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 57%;
-          flex: 1 1 57%;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
   -ms-flex-item-align: end;
       align-self: flex-end;
-}
-.offer__right {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 43%;
-          flex: 1 1 43%;
-  padding: 0px 12px;
 }
 .offer__label {
   font-weight: 300;
@@ -163,6 +159,9 @@ body {
   background: #fff;
   padding: 11px 32px 11px 32px;
 }
+.offer__right {
+  padding: 0px 25px 0px 25px;
+}
 .offer__img {
   max-width: 100%;
 }
@@ -185,20 +184,13 @@ body {
 .item-models:not(:last-child) {
   margin-bottom: 80px;
 }
-.item-models__picture {
+.item-models__image {
+  max-width: 531px;
+  padding: 67px 0px 67px 0px;
   background-color: #f8f8f8;
-  margin: 0px auto;
 }
-.item-models__picture:not(:last-child) {
-  margin-bottom: 67px;
-}
-.item-models__picture_watch2 {
-  padding: 110px 65.5px;
-  max-width: 417px;
-}
-.item-models__picture_watch3 {
-  padding: 67px 2px;
-  max-width: 500px;
+.item-models__image:not(:last-child) {
+  margin-bottom: 62px;
 }
 .item-models__img {
   max-width: 100%;
