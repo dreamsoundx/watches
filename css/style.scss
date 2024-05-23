@@ -55,7 +55,7 @@ body {
   // .offer__content
 
   &__content {
-    padding: 0px 0px 168px 0px;
+    padding: 0px 0px 164px 0px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -165,14 +165,18 @@ body {
 .main {
 }
 .models {
-  padding: 43px 0px 142px 0px;
   // .models__container
 
   &__container {
-    margin: 0px auto;
-    max-width: 561px;
-    padding: 0px 15px;
+  }
+
+  // .models__content
+
+  &__content {
+    padding: 43px 0px 128px 0px;
     text-align: center;
+    max-width: 561px;
+    margin: 0px auto;
   }
 
   // .models__header
@@ -247,7 +251,15 @@ body {
 
   &__title {
     &:not(:last-child) {
-      margin-bottom: 62px;
+      margin-bottom: 50px;
+    }
+    &::after {
+      content: '';
+      display: block;
+      width: 178px;
+      height: 1px;
+      background: #707070;
+      margin: 11px auto 0px;
     }
   }
 
